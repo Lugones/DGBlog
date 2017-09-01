@@ -1,0 +1,9 @@
+
+<h1>Subject List</h1>
+<select id="subject" name="subject_list">
+    <option  value="" selected="selected">---SELECT---</option>
+    {% for subject in subjects %}
+        <option value="{{subject.id}}">{{subject.description}}</option>
+    {% endfor %}
+</select>
+
