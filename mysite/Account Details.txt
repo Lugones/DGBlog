@@ -1,0 +1,9 @@
+superuser:
+
+username:  admin
+password:  AdminPassword
+
+users:
+
+MrSpong
+MrSpongPassword
